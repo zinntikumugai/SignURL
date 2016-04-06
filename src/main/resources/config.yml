@@ -1,0 +1,23 @@
+#=============
+#
+#SiginURL
+#
+#Author: zinntikumugai
+#Version: 0.0.1
+#=============
+
+#Mode: X
+Mode: 
+
+Prefix:
+  SkipName: "signurl"
+  Name: "[SignURL]"
+
+  #coler: "$1"
+  Coler: "$1"
+
+URLs: 
+  0:
+    name: "homepage"
+    url: "localhost"
+  

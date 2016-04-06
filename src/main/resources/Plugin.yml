@@ -1,0 +1,17 @@
+name: SignURL
+main: com.github.zinntikumugai.signurl.SginURL
+version: 0.0.1
+author: zinntikumugai
+
+permissions:
+  description: 
+  default: false
+  
+commands: 
+  signurl: 
+    description: SignURL setting command
+    usage: /signurl <  > 
+
+  su: 
+    description: SignURL setting command
+    usage: /su <  > 
