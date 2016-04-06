@@ -18,7 +18,7 @@ public class SignURL_Command implements CommandExecutor {
 	@Override
 	public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 
-		Player plyaer = null;
+		Player player = null;
 
 		//対応コマンド以外終了
 		if( !command.getName().equalsIgnoreCase("signurl") ) {
@@ -27,6 +27,12 @@ public class SignURL_Command implements CommandExecutor {
 			}
 		}
 
+
+		if(sender instanceof Player) {
+			player = (Player)sender;
+		}else {
+
+		}
 
 		return false;
 	}
